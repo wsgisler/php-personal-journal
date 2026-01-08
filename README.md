@@ -17,9 +17,16 @@ I used PHP for this and deliberatly decided to not use a database backend, but s
 Also, right now I am trying to test out a lot of different AI coding agents/ methods. I touched less than 1% of the code here myself. It was all built using the GitHub Copilot chat and it took only a couple of hours (maybe 4) to write the actual code. My approach was as follows: draw everything up using pen and paper, quick wireframes using Powerpoint. Then a description of each page. Then, I fed these things piece by piece to GitHub Copilot, tested it piece by piece and when I had additional ideas, I added these as feedback on the go.
 
 ## Screenshots
+The journaling dashboard:
 ![The journaling dashboard](screenshots/screenshot_1.png)
+
+Example for a journal entry:
 ![Details of a journal entry](screenshots/screenshot_2.png)
+
+The Markdown editor:
 ![The editor](screenshots/screenshot_3.png)
+
+The high level planning dashboard:
 ![The high level planning dashboard](screenshots/screenshot_4.png)
 
 ## Features
