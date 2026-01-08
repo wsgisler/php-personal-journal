@@ -1,0 +1,65 @@
+/* Custom styles for Journal App with Bootstrap */
+
+/* Override Bootstrap primary color to match design */
+:root {
+    --bs-primary: #2c6b8e;
+    --bs-primary-rgb: 44, 107, 142;
+}
+
+.btn-primary {
+    background-color: #2c6b8e;
+    border-color: #2c6b8e;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+    background-color: #1f4f6b;
+    border-color: #1f4f6b;
+}
+
+.text-primary {
+    color: #2c6b8e !important;
+}
+
+.border-primary {
+    border-color: #2c6b8e !important;
+}
+
+/* Navigation active state */
+.nav-link.active {
+    color: #2c6b8e !important;
+    border-bottom: 3px solid #2c6b8e;
+    margin-bottom: -3px;
+}
+
+/* Ensure minimum height for main container */
+body {
+    min-height: 100vh;
+}
+
+/* Custom scrollbar for textareas */
+textarea::-webkit-scrollbar {
+    width: 8px;
+}
+
+textarea::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+textarea::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+
+textarea::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+    .container-fluid {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
